@@ -1,0 +1,14 @@
+# Analysis engines list file for Scid 5.1.0 with UCI support
+
+engine {
+  Name sf
+  Cmd  /var/home/hugh/Downloads/Stockfish/src/stockfish
+  Args {}
+  Dir  .
+  Elo  0
+  Time 1749463328
+  URL  {white 1 word false normal {}}
+  UCI 1
+  UCIoptions {{Threads 31} {Hash 50000} {MultiPV 2} {SyzygyPath /var/home/hugh/media/data/dtz} {Syzygy50MoveRule false}}
+}
+
