@@ -1,0 +1,7 @@
+[org/gnome/clocks]
+world-clocks=[{'location': <(uint32 2, <('Chiang Mai', 'VTCC', true, [(0.32783100534850401, 1.7275850654479563)], [(0.32795221846505507, 1.7275559882626181)])>)>}, {'location': <(uint32 2, <('Los Angeles', 'KCQT', true, [(0.59370283970450188, -2.0644336110828618)], [(0.59432360095955872, -2.063741622941031)])>)>}, {'location': <(uint32 2, <('Coordinated Universal Time (UTC)', '@UTC', false, @a(dd) [], @a(dd) [])>)>}, {'location': <(uint32 2, <('Berlin', 'EDDB', true, [(0.91426163401859872, 0.23591034304566436)], [(0.91658875132345297, 0.23387411976724018)])>)>}, {'location': <(uint32 2, <('Moscow', 'UUWW', true, [(0.97127572873484425, 0.65042604039431762)], [(0.97305983920281813, 0.65651530216830811)])>)>}]
+
+[org/gnome/clocks/state/window]
+maximized=false
+panel-id='world'
+size=(2544, 1318)
