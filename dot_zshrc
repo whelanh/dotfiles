@@ -35,3 +35,4 @@ setopt COMPLETE_IN_WORD
 ### bling.sh source start
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
 ### bling.sh source end
+alias ld="eza --long  --all --sort modified --total-size"
