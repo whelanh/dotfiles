@@ -6,7 +6,7 @@ set recentFiles(menu) 9
 
 set recentFiles(extra) 9
 
-set recentFiles(data) {/var/home/hugh/hughChess.si5 /var/home/hugh/Downloads/twic1596.pgn /var/home/hugh/Downloads/event110156.pgn /var/home/hugh/Downloads/event110152.pgn /var/home/hugh/Downloads/event110125.pgn}
+set recentFiles(data) {/home/hugh/hughChess.si5 /var/home/hugh/hughChess.si5 /var/home/hugh/Downloads/twic1596.pgn /var/home/hugh/Downloads/event110156.pgn /var/home/hugh/Downloads/event110152.pgn /var/home/hugh/Downloads/event110125.pgn}
 
 set ::recentSort {/var/home/hugh/hughChess.si5 {7 -}}
-set ::autoLoadBases /var/home/hugh/hughChess.si5
+set ::autoLoadBases /home/hugh/hughChess.si5
