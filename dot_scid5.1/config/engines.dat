@@ -2,13 +2,13 @@
 
 engine {
   Name sf
-  Cmd  /var/home/hugh/Downloads/Stockfish/src/stockfish
+  Cmd  /home/hugh/Downloads/Stockfish/src/stockfish
   Args {}
   Dir  .
   Elo  0
   Time 1749463328
   URL  {white 1 word false normal {}}
   UCI 1
-  UCIoptions {{Threads 31} {Hash 50000} {MultiPV 2} {SyzygyPath /var/home/hugh/media/data/dtz} {Syzygy50MoveRule false}}
+  UCIoptions {{Threads 31} {Hash 50000} {MultiPV 2} {SyzygyPath /home/hugh/media/data/dtz} {Syzygy50MoveRule false}}
 }
 
