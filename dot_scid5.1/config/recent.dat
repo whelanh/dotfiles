@@ -6,7 +6,7 @@ set recentFiles(menu) 9
 
 set recentFiles(extra) 9
 
-set recentFiles(data) {/home/hugh/hughChess.si5 /var/home/hugh/hughChess.si5 /var/home/hugh/Downloads/twic1596.pgn /var/home/hugh/Downloads/event110156.pgn /var/home/hugh/Downloads/event110152.pgn /var/home/hugh/Downloads/event110125.pgn}
+set recentFiles(data) {/home/hugh/hughChess.si5 /home/hugh/Downloads/twic1603.pgn /home/hugh/OneDrive/multipleChessPy/pythonProject/output.pgn /home/hugh/Downloads/event110826.pgn /home/hugh/Downloads/twic1602.pgn /home/hugh/Downloads/twic1601.pgn /var/home/hugh/hughChess.si5 /var/home/hugh/Downloads/twic1596.pgn /var/home/hugh/Downloads/event110156.pgn /var/home/hugh/Downloads/event110152.pgn /var/home/hugh/Downloads/event110125.pgn}
 
-set ::recentSort {/var/home/hugh/hughChess.si5 {7 -}}
+set ::recentSort {/var/home/hugh/hughChess.si5 {7 -} /home/hugh/hughChess.si5 {7 -}}
 set ::autoLoadBases /home/hugh/hughChess.si5

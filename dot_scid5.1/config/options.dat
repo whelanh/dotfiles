@@ -4,7 +4,7 @@
 # If you edit this file, you must preserve valid its Tcl
 # format or it will not set your Scid options properly.
 
-set boardSize 80
+set boardSize 60
 set boardStyle Merida1
 set language E
 set ::pgn::showColor 1
@@ -253,11 +253,11 @@ set twinSettings(usefilter) No
 set twinSettings(variations) Yes
 set twinSettings(year) Yes
 
-set fontOptions(Regular) {{Droid Sans} 14 normal roman}
-set fontOptions(Menu) {{Droid Sans} 12 normal roman}
-set fontOptions(Small) {{Droid Sans} 13 normal roman}
-set fontOptions(Tiny) {{Droid Sans} 12 normal roman}
-set fontOptions(Fixed) {{DejaVu Sans Mono} 13 normal roman}
+set fontOptions(Regular) {{Droid Sans} 12 normal roman}
+set fontOptions(Menu) {{Droid Sans} 11 normal roman}
+set fontOptions(Small) {{Droid Sans} 11 normal roman}
+set fontOptions(Tiny) {{Droid Sans} 10 normal roman}
+set fontOptions(Fixed) {{DejaVu Sans Mono} 11 normal roman}
 
 set initialDir(report) .
 set initialDir(stm) .
@@ -336,14 +336,15 @@ set ::pinfo::dnburl http://d-nb.info/gnd
 set ::pinfo::SeeAlsoPND2WP http://ws.gbv.de/seealso/pnd2wikipedia/?format=seealso&id=
 set ::pinfo::wikipAPI http://de.wikipedia.org/w/api.php?action=query&format=xml
 set ::novag::referee OFF
-set ::docking::layout_list(1) {{MainWindowGeometry 1524x1506+-53+-7} {{.pw vertical {}} {TPanedwindow {{.pw.pw0 horizontal 829} {TPanedwindow {{.pw.pw0.pw0 vertical 1076} {TNotebook .pw.pw0.pw0.tb0 {.main .baseWin}} {TNotebook .nb .commentWin}}} {TPanedwindow {{.pw.pw0.pw1 vertical 1076} {TNotebook .pw.pw0.tb0 .pgnWin} {TPanedwindow {{.pw.pw0.pw1.pw0 horizontal {}} {TNotebook .pw.pw0.pw1.tb0 {.glistWin1 .fdocktreeWin1}}}}}}}}}}
+set ::docking::layout_list(1) {{MainWindowGeometry 1708x1309+-53+-7} {{.pw vertical {}} {TPanedwindow {{.pw.pw0 horizontal 921} {TPanedwindow {{.pw.pw0.pw0 vertical 874} {TNotebook .pw.pw0.pw0.tb0 {.main .baseWin}} {TNotebook .nb .commentWin}}} {TPanedwindow {{.pw.pw0.pw1 vertical 840} {TNotebook .pw.pw0.tb0 .pgnWin} {TPanedwindow {{.pw.pw0.pw1.pw0 horizontal {}} {TNotebook .pw.pw0.pw1.tb0 {.glistWin1 .fdocktreeWin1}}}}}}}}}}
 set ::docking::layout_list(2) {{MainWindowGeometry 540x650+0+0} {{.pw vertical {}} {TNotebook .nb .fdockmain}}}
 set ::docking::layout_list(3) {{MainWindowGeometry 1280x670+0+0} {{.pw vertical {}} {TPanedwindow {{.pw.pw0 horizontal 487} {TPanedwindow {{.pw.pw0.pw0 vertical 82} {TNotebook .pw.pw0.pw0.tb0 .baseWin} {TNotebook .nb .main}}} {TPanedwindow {{.pw.pw0.pw1 vertical 337} {TNotebook .pw.pw0.tb0 .glistWin1} {TPanedwindow {{.pw.pw0.pw1.pw0 horizontal 346} {TNotebook .pw.pw0.pw1.tb0 {.commentWin .pgnWin}} {TNotebook .pw.pw0.pw1.pw0.tb0 .engineWin1}}}}}}}}}
-set ::docking::layout_list(auto) {{MainWindowGeometry 1524x1506+-53+-7} {{.pw vertical {}} {TPanedwindow {{.pw.pw0 horizontal 829} {TPanedwindow {{.pw.pw0.pw0 vertical 1076} {TNotebook .pw.pw0.pw0.tb0 {.main .baseWin}} {TNotebook .nb .commentWin}}} {TPanedwindow {{.pw.pw0.pw1 vertical 1076} {TNotebook .pw.pw0.tb0 .pgnWin} {TPanedwindow {{.pw.pw0.pw1.pw0 horizontal {}} {TNotebook .pw.pw0.pw1.tb0 {.glistWin1 .fdocktreeWin1}}}}}}}}}}
+set ::docking::layout_list(auto) {{MainWindowGeometry 1708x1309+-53+-7} {{.pw vertical {}} {TPanedwindow {{.pw.pw0 horizontal 921} {TPanedwindow {{.pw.pw0.pw0 vertical 874} {TNotebook .pw.pw0.pw0.tb0 {.main .baseWin}} {TNotebook .nb .commentWin}}} {TPanedwindow {{.pw.pw0.pw1 vertical 840} {TNotebook .pw.pw0.tb0 .pgnWin} {TPanedwindow {{.pw.pw0.pw1.pw0 horizontal {}} {TNotebook .pw.pw0.pw1.tb0 {.glistWin1 .fdocktreeWin1}}}}}}}}}}
 set ::winGeometry(.commentWin) 530x220
 
-set ::autosave_opt {::enginewin_lastengine(1) ::glist_ColAnchor ::glist_ColAnchor(DateEvent) ::glist_ColAnchor(Full) ::glist_ColAnchor(RatingDate) ::glist_ColOrder ::glist_ColOrder(DateEvent) ::glist_ColOrder(Full) ::glist_ColOrder(RatingDate) ::glist_ColWidth ::glist_ColWidth(DateEvent) ::glist_ColWidth(Full) ::glist_ColWidth(RatingDate) ::glist_FindBar ::glist_FindBar(DateEvent) ::glist_FindBar(Full) ::glist_FindBar(RatingDate) ::glist_Layouts ::glist_Sort ::glist_Sort(DateEvent) ::glist_Sort(Full) ::glist_Sort(RatingDate) ::showEvalBar(.main) ::showMainEvalBarArrow}
+set ::autosave_opt {::enginewin_lastengine(1) ::enginewin_lastengine(2) ::glist_ColAnchor ::glist_ColAnchor(DateEvent) ::glist_ColAnchor(Full) ::glist_ColAnchor(RatingDate) ::glist_ColOrder ::glist_ColOrder(DateEvent) ::glist_ColOrder(Full) ::glist_ColOrder(RatingDate) ::glist_ColWidth ::glist_ColWidth(DateEvent) ::glist_ColWidth(Full) ::glist_ColWidth(RatingDate) ::glist_FindBar ::glist_FindBar(DateEvent) ::glist_FindBar(Full) ::glist_FindBar(RatingDate) ::glist_Layouts ::glist_Sort ::glist_Sort(DateEvent) ::glist_Sort(Full) ::glist_Sort(RatingDate) ::showEvalBar(.main) ::showMainEvalBarArrow}
 set ::enginewin_lastengine(1) sf
+set ::enginewin_lastengine(2) crystal
 set ::glist_ColAnchor(DateEvent) {{e} {c} {c} {w} {c} {w} {c} {w} {w} {e}  {w} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {w}}
 set ::glist_ColAnchor(Full) {{e} {c} {c} {w} {c} {w} {c} {w} {w} {e}  {w} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {w}}
 set ::glist_ColAnchor(RatingDate) {{e} {c} {c} {w} {c} {w} {c} {w} {w} {e}  {w} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {c} {w}}
@@ -359,7 +360,7 @@ set ::glist_ColOrder(ly.treeBest1) {7 3 4 5 6 1 2 23 8 10 9 16 17 22 21 18 11 12
 set ::glist_ColWidth(DateEvent) {50 50 50 120 40 120 40 80 145 30 112 30 20 20 20 20 35 50 30 100 40 40 50 153}
 set ::glist_ColWidth(Full) {50 50 39 120 40 120 40 70 200 30 200 30 20 20 20 20 35 119 30 78 40 40 50 155}
 set ::glist_ColWidth(RatingDate) {{50} {50} {50} {120} {40} {120} {40} {80} {200} {30}  {200} {30} {20} {20} {20} {20} {35} {50} {30} {100} {40} {40} {50} {140}}
-set ::glist_ColWidth(ly.glistWin1) {50 114 78 131 82 142 77 70 132 30 200 30 20 20 20 20 35 119 30 78 40 40 50 299}
+set ::glist_ColWidth(ly.glistWin1) {50 48 50 94 60 113 62 70 132 30 200 30 20 20 20 20 35 119 30 78 40 40 50 299}
 set ::glist_ColWidth(ly.glistWin2) {50 50 39 120 40 120 40 70 200 30 200 30 20 20 20 20 35 119 30 78 40 40 50 155}
 set ::glist_ColWidth(ly.treeBest1) {50 92 39 120 40 120 40 70 200 30 200 30 20 20 20 20 35 119 30 78 40 40 50 155}
 set ::glist_FindBar(DateEvent) 0

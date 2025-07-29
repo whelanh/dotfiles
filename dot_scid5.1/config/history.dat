@@ -1,4 +1,5 @@
 # Scid 5.1.0 combobox history lists
 
-set ::utils::history::listData(::preport::_player) {{Nachtigall, Frank} {Radzinski, Szymon} {Bolhari, Orphe Iraj} {Epure, Cristian-Ion} {Koronowski, Heinz-Jürgen} {Baciak, Miloslav}}
+set ::utils::history::listData(::preport::_player) {{Roth Jr., Peter} {Nachtigall, Frank} {Radzinski, Szymon} {Bolhari, Orphe Iraj} {Epure, Cristian-Ion} {Koronowski, Heinz-Jürgen} {Baciak, Miloslav}}
 set ::utils::history::listData(HeaderSearchEvent) {blitz titled}
+set ::utils::history::listData(HeaderSearchSite) iccf
