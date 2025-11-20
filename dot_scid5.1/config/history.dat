@@ -1,0 +1,7 @@
+# Scid 5.1.0 combobox history lists
+
+set ::utils::history::listData(::preport::_player) {{Senzacqua, Fabrizio} {Whelan, Hugh} {Lachica Jr., Cesar G.} {Schmitz, André} {Ralls, Richard} {Thomas, Tim}}
+set ::utils::history::listData(HeaderSearchBlack) Whelan
+set ::utils::history::listData(HeaderSearchEvent) {titled blitz}
+set ::utils::history::listData(HeaderSearchSite) iccf
+set ::utils::history::listData(HeaderSearchWhite) Whelan

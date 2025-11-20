@@ -1,0 +1,12 @@
+# Scid 5.1.0 recent files list
+
+set recentFiles(limit) 10
+
+set recentFiles(menu) 9
+
+set recentFiles(extra) 9
+
+set recentFiles(data) {/var/home/hugh/chess/hughChess.si5 /var/home/hugh/Downloads/twic1619g/twic1619.pgn /var/home/hugh/Downloads/archive202509.pgn /var/home/hugh/Downloads/combo2.pgn /var/home/hugh/Downloads/combo.pgn /var/home/hugh/Downloads/twic1611.pgn}
+
+set ::recentSort {/var/home/hugh/chess/hughChess.si5 {7 -}}
+set ::autoLoadBases /var/home/hugh/chess/hughChess.si5

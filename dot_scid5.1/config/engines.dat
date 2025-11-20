@@ -1,0 +1,38 @@
+# Analysis engines list file for Scid 5.1.0 with UCI support
+
+engine {
+  Name crystalNoSyz
+  Cmd  /var/home/hugh/Downloads/jhellisCrystal/src/crystal
+  Args {}
+  Dir  .
+  Elo  0
+  Time 1759487741
+  URL  {}
+  UCI 1
+  UCIoptions {{Hash 105000} {MultiPV 1} {{Debug Log File} <empty>} {NumaPolicy auto} {Threads 47} {{Clean Search} false} {Contempt 20} {{Move Overhead} 10} {nodestime 0} {SyzygyPath <empty>} {Syzygy50MoveRule true} {SyzygyProbeLimit 7} {EvalFile nn-1c0000000000.nnue} {EvalFileSmall nn-37f18f62d772.nnue}}
+}
+
+engine {
+  Name sf
+  Cmd  /var/home/hugh/Downloads/Stockfish/src/stockfish
+  Args {}
+  Dir  .
+  Elo  0
+  Time 1763635644
+  URL  {white 1 word false normal {}}
+  UCI 1
+  UCIoptions {{Threads 47} {Hash 105000} {MultiPV 3} {SyzygyPath /var/home/hugh/media/data/dtz} {Syzygy50MoveRule false}}
+}
+
+engine {
+  Name sfNoSyz
+  Cmd  /var/home/hugh/Downloads/Stockfish/src/stockfish
+  Args {}
+  Dir  .
+  Elo  0
+  Time 1759270492
+  URL  {white 1 word false normal {}}
+  UCI 1
+  UCIoptions {{Threads 47} {Hash 109000} {Syzygy50MoveRule false}}
+}
+
