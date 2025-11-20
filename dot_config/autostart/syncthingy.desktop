@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=SyncThingy
+Exec=flatpak run --command=syncthing com.github.zocker_160.SyncThingy --no-browser
+Icon=com.github.zocker_160.SyncThingy
+Comment=Start Syncthing daemon at login
+X-GNOME-Autostart-enabled=true
